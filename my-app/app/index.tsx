@@ -1,15 +1,20 @@
-import { Text, View } from "react-native";
+import React, { Component } from "react";
+import {Text, View, StyleSheet} from "react-native";
 
-export default function Index() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Sex april</Text>
-    </View>
-  );
+export default class App1 extends Component {
+    render() {
+        return(
+            <View>
+                <View>
+                    <Text>CFB cursos</Text>
+                    <Text>Curso de react native</Text>
+                </View>
+
+                <View>
+                    <Text>Aula 3</Text>
+                    <Text>HElp me</Text>
+                </View>
+            </View>
+        );
+    }
 }
